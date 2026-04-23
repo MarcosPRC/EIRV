@@ -24,7 +24,7 @@ public class LockedDoor : MonoBehaviour
     void Start()
     {
         closedRotation = transform.rotation;
-        openRotation = transform.rotation * Quaternion.Euler(0f, openAngle, 0f);
+        openRotation = transform.rotation * Quaternion.Euler(0f, 0f, openAngle);
         playerCamera = Camera.main;
 
         if (lockedMessageUI != null)

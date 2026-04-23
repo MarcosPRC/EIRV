@@ -2129,7 +2129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac873dc7d2428af46b36950ff38fb7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime: 10
+  totalTime: 30
   globalVolume: {fileID: 1505429751}
   ambientAudio: {fileID: 498941591}
   heartbeatAudio: {fileID: 498941590}
@@ -2173,7 +2173,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5855,7 +5855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactDistance: 3
   interactKey: 101
-  openAngle: 90
+  openAngle: -90
   openSpeed: 3
   lockedMessageUI: {fileID: 0}
 --- !u!64 &1303689526
@@ -9084,7 +9084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2014804484
 Light:
   m_ObjectHideFlags: 0
