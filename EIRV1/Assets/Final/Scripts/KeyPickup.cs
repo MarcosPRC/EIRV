@@ -47,6 +47,7 @@ public class KeyPickup : MonoBehaviour
         Debug.Log("¡Llave recogida!");
         // Aquí puedes reproducir un sonido de recogida
         // AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+        HUDMessage.Instance.ShowMessage("¡Llave encontrada!");
         Destroy(gameObject);
     }
 }

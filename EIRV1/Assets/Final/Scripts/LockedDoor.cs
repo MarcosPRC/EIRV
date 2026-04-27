@@ -65,6 +65,8 @@ public class LockedDoor : MonoBehaviour
         }
         else
         {
+            // En TryOpen(), cuando NO tiene llave:
+            HUDMessage.Instance.ShowMessage("Está cerrada con llave. Necesito encontrar la llave.");
             Debug.Log("Necesitas una llave.");
             if (lockedMessageUI != null)
                 StartCoroutine(ShowMessage());
